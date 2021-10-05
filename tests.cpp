@@ -13,15 +13,11 @@
 
 TEST_CASE("Ex1", "[example]")
 {
-    REQUIRE(ageChecker(18)==1);
-    REQUIRE(ageChecker(12)==0);
-    REQUIRE(ageChecker(-18)==0);
-    REQUIRE(ageChecker(13)==1);
-        
+    REQUIRE(yearChecker(2021)==1);
+    REQUIRE(ageChecker(2022)==1);
+    REQUIRE(ageChecker(2023)==0);
+    REQUIRE(ageChecker(2018)==1);
+    REQUIRE(ageChecker(2017)==0);
+    REQUIRE(ageChecker(-2017)==0);    
 }
-
-// =====================
-// tests for exercise 2
-// ---------------------
-
 

@@ -8,7 +8,7 @@ using namespace std;
 // implementations
 
 //Replace string function
-bool ageChecker(int age)
+bool yearChecker(int year)
 {
 	return 0; // TODO: fix
 }
