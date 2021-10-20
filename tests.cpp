@@ -14,10 +14,10 @@
 TEST_CASE("Ex1", "[example]")
 {
     REQUIRE(yearChecker(2021)==1);
-    REQUIRE(ageChecker(2022)==1);
-    REQUIRE(ageChecker(2023)==0);
-    REQUIRE(ageChecker(2018)==1);
-    REQUIRE(ageChecker(2017)==0);
-    REQUIRE(ageChecker(-2017)==0);    
+    REQUIRE(yearChecker(2022)==1);
+    REQUIRE(yearChecker(2023)==0);
+    REQUIRE(yearChecker(2018)==1);
+    REQUIRE(yearChecker(2017)==0);
+    REQUIRE(yearChecker(-2017)==0);    
 }
 
